@@ -229,7 +229,7 @@ def main() -> None:
 
     # Display the report if it exists
     if "trends_report" in st.session_state:
-        st.markdown("## 📊 Content Trends Report", unsafe_allow_html=True)
+        st.markdown("## 📊 Trends Report", unsafe_allow_html=True)
         st.markdown(st.session_state.trends_report, unsafe_allow_html=True)
         st.markdown("---")
 
